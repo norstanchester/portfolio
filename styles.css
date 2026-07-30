@@ -27,6 +27,11 @@ body {
   text-decoration: none;
 }
 
+#navbar a:hover {
+  text-decoration: underline;
+  background-color:#374151;
+}
+
 
 /* Welcome */
 #welcome-section {
