@@ -9,6 +9,14 @@ body {
   color: white;
 }
 
+hr {
+  width: 85%;
+  border: 0;
+  height: 1px;
+  background: #374151;
+  margin: 80px auto;
+}
+
 
 /* Navbar */
 #navbar {
@@ -51,16 +59,24 @@ body {
   font-size: 50px;
 }
 
+/* Experience */
+#experience-section {
+  padding: 0 50px;
+}
+
+#skills-section {
+  padding: 0 50px;
+}
 
 /* Projects */
 #project-section {
-  padding: 60px 20px;
+  padding: 0 20px;
   text-align: center;
 }
 
 .project-tile {
   background-color: #1f2937;
-  margin: 20px auto;
+  margin: 0 auto;
   padding: 25px;
   max-width: 500px;
   border-radius: 10px;
