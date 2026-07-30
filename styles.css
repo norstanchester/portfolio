@@ -31,8 +31,12 @@ hr {
 }
 
 #navbar a {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 5px;
   color: white;
   text-decoration: none;
+  transition: background-color 0.3s ease;
 }
 
 #navbar a:hover {
@@ -91,6 +95,11 @@ hr {
 #contact {
   padding: 50px;
   text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 0;
 }
 
 
